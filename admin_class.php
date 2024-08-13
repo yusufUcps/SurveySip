@@ -564,7 +564,9 @@ Class Action {
 	function mulai_gpt(){
 		extract($_POST);
 
-		$open_ai_key = 'sk-proj-TxKVjf5QChFTgfXMzc6rT3BlbkFJr47uD9kDtpWkLxGENpcm';
+		$key ="";
+
+		$open_ai_key = $key;
 
 		$open_ai = new OpenAi($open_ai_key);
 
